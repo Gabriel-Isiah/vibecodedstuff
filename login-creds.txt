@@ -1,0 +1,20 @@
+Temporary login credentials (also seeded into browser localStorage on first load):
+
+1) Regular user
+   - Email: user@example.com
+   - Password: password123
+   - Role: user
+
+2) Researcher
+   - Email: researcher@example.com
+   - Password: password123
+   - Role: researcher
+
+3) Admin
+   - Email: admin@example.com
+   - Password: password123
+   - Role: admin
+
+You can change these in:
+src/auth.js  (seed users and roles)
+
